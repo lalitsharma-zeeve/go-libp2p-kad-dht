@@ -15,10 +15,10 @@ import (
 
 const (
 	// ProtocolPrefix is the base prefix for Amino DHT protocols.
-	ProtocolPrefix protocol.ID = "/ipfs"
+	ProtocolPrefix protocol.ID = "/autheo"
 
 	// ProtocolID is the latest protocol identifier for the Amino DHT.
-	ProtocolID protocol.ID = "/ipfs/kad/1.0.0"
+	ProtocolID protocol.ID = "/autheo/kad/1.0.0"
 
 	// DefaultBucketSize is the Amino DHT bucket size (k in the Kademlia paper).
 	// It represents the maximum number of peers stored in each
